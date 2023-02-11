@@ -1,0 +1,983 @@
+#section-1 {
+  height: 1659px;
+  /* mobile */
+  height: initial;
+}
+
+.section-1-container {
+  width: calc(200% / 3);
+  min-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  padding-top: 80px;
+  flex-direction: column;
+  gap: 128px;
+  /* mobile */
+  width: 100%;
+  min-width: initial;
+  gap: 50px;
+  padding-top: 0px;
+  height: initial;
+}
+
+.about-us {
+  height: 550px;
+  display: flex;
+  position: relative;
+  width: 100%;
+  /* mobile */
+  flex-direction: column;
+  position: initial;
+  height: initial;
+}
+
+.about-us img {
+  width: 818px;
+  /* mobile */
+  order: 1;
+  width: 100%;
+}
+
+.about-us-text {
+  padding: 96px;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  position: absolute;
+  width: 733px;
+  height: 100%;
+  background-color: var(--text-primary);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  /* mobile */
+  position: initial;
+  width: 100%;
+  height: initial;
+  padding: 48px;
+  align-items: center;
+}
+
+.about-us-text h1 {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 84px;
+  line-height: -0.03em;
+  color: #f2f2f2;
+  /* mobile */
+  font-size: 48px;
+}
+
+.about-us-text p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 175%;
+  color: #f2f2f2;
+  margin-bottom: 48px;
+  /* mobile */
+  font-size: 16px;
+  margin-bottom: 28px;
+}
+
+.expert-service {
+  width: 100%;
+  height: 773px;
+  display: flex;
+  /* mobile */
+  height: initial;
+  flex-direction: column;
+  align-items: center;
+}
+
+.expert-service-text {
+  width: 52.25%;
+  padding-right: 93px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  /* mobile */
+  height: initial;
+  width: 80%;
+  align-items: center;
+  padding-right: 0;
+}
+
+.expert-service-text h3 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 67.2px;
+  letter-spacing: -0.03em;
+  /* mobile */
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.expert-service-text p {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+  color: #232536;
+  opacity: 0.6;
+  margin-bottom: 32px;
+}
+
+.expert-service img {
+  width: 100%;
+}
+
+/* Steps */
+.section-1-steps {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  /* Mobile */
+  align-items: center;
+  width: 100%;
+}
+
+.step {
+  height: calc(72px + 65px);
+  display: flex;
+  gap: 24px;
+  /* mobile */
+  height: 100%;
+  width: 80%;
+}
+
+.step-number {
+  padding: 12px 0;
+  width: 72px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  height: 150px;
+  /* mobile */
+  padding: 12px 0 0 0;
+  /* MOBILIAKAS */
+  height: auto;
+}
+
+.step-number .number {
+  width: 100%;
+  height: 72px;
+  background-color: var(--secondary);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* mobile */
+  width: 72px;
+  height: 72px;
+  padding: 20px 0;
+}
+
+.number h5 {
+  font-size: 32px;
+  color: #fff;
+  /* Mobile */
+  font-size: 28px;
+}
+
+.number .inner-circle {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  left: 14px;
+  top: 52px;
+  z-index: 1;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.dotted-line {
+  border: 1.5px dashed #ff6433;
+  width: 0;
+  height: 51px;
+  /* mobile */
+  height: 100%;
+}
+
+/* Step text */
+.step-text {
+  padding: 12px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.step-text h4 {
+  font-size: 32px;
+  letter-spacing: -0.03em;
+  /* mobile */
+  font-size: 28px;
+}
+
+.step-text p {
+  width: 336px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 175%;
+  opacity: 0.6;
+  /* mobile */
+  width: 100%;
+}
+
+/* Section 2 ------------------------------------------------------------------------------- */
+#section-2 {
+  height: 629px;
+  /* mobile */
+  height: initial;
+}
+
+.section-2-container {
+  /* height: 100%; */
+  width: 100%;
+  display: flex;
+  /* mobile */
+  flex-direction: column;
+}
+
+.section-2-card {
+  position: relative;
+  width: calc(100% / 3);
+  height: 100%;
+  padding: 142px 102px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  overflow: hidden;
+  /* mobile */
+  width: 100%;
+  padding: 50px;
+}
+
+.section-2-card h4 {
+  font-size: 40px;
+  line-height: 54px;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+  /* mobile */
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.section-2-card p {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+  font-weight: 600;
+  /* mobile */
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.section-3-card-background-image {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.section-3-card-background-image.orange-background {
+  background: url(../images/about-us/miata.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-3-card-background-image.black-background {
+  background: url(../images/about-us/jumper-cables.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-3-card-background-image.purple-background {
+  background: url(../images/about-us/jumper-cables.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-2-card.orange {
+  background-color: rgba(248, 91, 41, 0.9);
+}
+
+.section-2-card.black {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.section-2-card.purple {
+  background-color: rgba(116, 67, 202, 0.9);
+}
+
+/* Section 3 ------------------------------------------------------------------------------- */
+#section-3 {
+  height: 1074px;
+  background-color: #f8f8f8;
+  /* mobile */
+  height: initial;
+}
+
+.section-3-container {
+  width: calc(200% / 3);
+  min-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  padding-top: 128px;
+  flex-direction: column;
+  gap: 64px;
+  align-items: center;
+  /* mobile */
+  height: initial;
+  min-width: initial;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 32px;
+}
+
+.section-3-container h2 {
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 76px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  width: 861px;
+  /* mobile */
+  width: 80%;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.section-3-cards {
+  width: 100%;
+  display: flex;
+  height: 424px;
+  /* mobile */
+  flex-direction: column;
+  height: initial;
+  align-items: center;
+}
+
+.section-3-card {
+  width: calc(100% / 3);
+  height: 100%;
+  border: 1px solid #f2f2f2;
+  background-color: #fff;
+  padding: 88px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+  /* mobile */
+  width: 95%;
+  padding: 32px;
+}
+
+.section-3-card img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 8px;
+}
+
+.section-3-card h5 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: -0.03em;
+  /* mobile  */
+  font-size: 28px;
+}
+
+.section-3-card p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 31.5px;
+  color: #232536;
+  opacity: 0.6;
+}
+
+/* Stats */
+.section-3-stats {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* mobile */
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 48px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* mobile */
+  align-items: center;
+}
+
+.section-3-stats h3 {
+  font-size: 58px;
+  letter-spacing: -0.03em;
+  font-weight: 800;
+  color: var(--secondary);
+  margin-bottom: 1px;
+  /* mobile */
+}
+
+.section-3-stats p {
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  font-size: 24px;
+  /* mobile */
+}
+
+/* Section 4 ------------------------------------------------------------------------------- */
+#section-4 {
+  height: 1328px;
+  /* mobile */
+  height: initial;
+}
+
+.section-4-container {
+  width: calc(200% / 3);
+  min-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  padding: 140px 0;
+  flex-direction: column;
+  gap: 66px;
+  align-items: center;
+  /* mobile */
+  width: 100%;
+  min-width: initial;
+  padding: 50px 0;
+  gap: 48px;
+}
+
+.section-4-container h2 {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 84px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  /* mobile */
+  font-size: 48px;
+  line-height: 70px;
+}
+
+.team-members {
+  height: 912px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 48px;
+  /* mobile  */
+  grid-template-columns: 1fr;
+  height: initial;
+  gap: 32px;
+  width: 90%;
+  align-items: center;
+  max-width: 420px;
+}
+
+.member {
+  display: flex;
+  align-items: flex-end;
+  /* mobile */
+  height: calc(912px / 2);
+}
+
+.member:first-child {
+  background: url('https://images.unsplash.com/photo-1613181013804-1dcba09e6a9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1089&q=80');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.member:nth-child(2) {
+  background: url('https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.member:nth-child(3) {
+  background: url('https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.member:nth-child(4) {
+  background: url('https://images.unsplash.com/photo-1507114845806-0347f6150324?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.member:nth-child(5) {
+  background: url('../images/about-us/kylee.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.member:last-child {
+  background: url('https://images.unsplash.com/photo-1618085221129-cb9f9ac1e651?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.name-title {
+  height: 116px;
+  width: 100%;
+  background: #161616;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 4px;
+}
+
+.name-title p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+}
+
+.name-title h6 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+/* Section 5 --------------------------------------------------------------------- */
+#section-5 {
+  height: calc(502px + 210px);
+  /* mobile */
+  height: initial;
+}
+
+/* Section 5 top */
+.section-5-top {
+  height: 502px;
+  position: relative;
+  overflow: hidden;
+  /* mobile */
+  height: initial;
+}
+
+.car-background {
+  position: absolute;
+  z-index: -5;
+  width: 50%;
+  background: url('../images/index_main/car-background-image.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  /* mobile */
+  display: none;
+}
+
+.jumper-cables-background {
+  position: absolute;
+  z-index: -5;
+  width: 50%;
+  background: url('../images/index_main/jumper-cables.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  right: 0;
+  /* mobile */
+  display: none;
+}
+
+.section-5-top-container {
+  width: calc(200% / 3);
+  margin: 0 auto;
+  height: 100%;
+  /* mobile */
+  width: 100%;
+}
+
+.section-5-text {
+  background-color: #ff6433;
+  height: 100%;
+  padding: 128px 80px 0 80px;
+  width: 729px;
+  /* mobile */
+  width: 100%;
+  padding: 50px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+/* Section 5 top text */
+
+.section-5-text h3 {
+  color: #fff;
+  letter-spacing: -0.03em;
+  line-height: 67.2px;
+  font-size: 48px;
+  width: 569px;
+  margin-bottom: 64px;
+  /* mobile */
+  width: 80%;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.section-5-text .button {
+  background: #1e1b1b;
+  color: #fff;
+}
+
+/* Larget desktops and monitors --------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 1280px) {
+  #section-1 {
+    height: 1659px;
+  }
+
+  .section-1-container {
+    width: calc(200% / 3);
+    min-width: 1200px;
+    height: 100%;
+    padding-top: 80px;
+    gap: 128px;
+  }
+
+  .about-us {
+    height: 550px;
+    position: relative;
+    flex-direction: row;
+  }
+
+  .about-us img {
+    width: 818px;
+  }
+
+  .about-us-text {
+    padding: 96px;
+    position: absolute;
+    width: 733px;
+    height: 100%;
+    align-items: flex-start;
+  }
+
+  .about-us-text h1 {
+    font-size: 64px;
+  }
+
+  .about-us-text p {
+    font-size: 18px;
+    margin-bottom: 48px;
+  }
+
+  .expert-service {
+    height: 773px;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .expert-service img {
+    width: auto;
+  }
+
+  .expert-service-text {
+    width: 52.25%;
+    padding-right: 93px;
+    height: 100%;
+    align-items: flex-start;
+  }
+
+  .expert-service-text h3 {
+    font-size: 48px;
+    line-height: 67.2px;
+  }
+
+  /* Steps */
+  .section-1-steps {
+    width: 50%;
+    align-items: flex-start;
+  }
+
+  .step {
+    height: calc(72px + 65px);
+    display: flex;
+    gap: 24px;
+    /* mobile */
+    /* height: 100%; */
+    width: initial;
+  }
+
+  /* .step-number {
+    height: 100%;
+  } */
+
+  .step-number .number {
+    width: 100%;
+    height: 72px;
+    background-color: var(--secondary);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* mobile */
+    width: 72px;
+    height: 72px;
+    padding: 20px 0;
+  }
+
+  .dotted-line {
+    border: 1.5px dashed #ff6433;
+    width: 0;
+    height: 51px;
+    /* mobile */
+    height: 100%;
+  }
+
+  /* Step text */
+
+  .step-text h4 {
+    font-size: 32px;
+  }
+
+  .step-text p {
+    width: 336px;
+  }
+
+  /* Section 2 ------------------------------------------------------------------------------- */
+  /* #section-2 {
+    height: 629px;
+  } */
+
+  .section-2-container {
+    /* height: 100%; */
+    /* mobile */
+    flex-direction: row;
+  }
+
+  .section-2-card {
+    width: calc(100% / 3);
+    padding: 142px 102px;
+  }
+
+  .section-2-card h4 {
+    font-size: 40px;
+    line-height: 54px;
+  }
+
+  .section-2-card p {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  /* Section 3 ------------------------------------------------------------------------------- */
+  /* #section-3 {
+    height: 1074px;
+  } */
+
+  .section-3-container {
+    width: calc(200% / 3);
+    min-width: 1200px;
+    height: 100%;
+    padding-top: 128px;
+    gap: 64px;
+  }
+
+  .section-3-container h2 {
+    font-size: 58px;
+    line-height: 76px;
+    width: 861px;
+  }
+
+  .section-3-cards {
+    height: 424px;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .section-3-card {
+    width: calc(100% / 3);
+    padding: 88px 60px;
+  }
+
+  .section-3-card h5 {
+    font-size: 32px;
+  }
+
+  /* Stats */
+  .section-3-stats {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0;
+    padding-bottom: 0;
+  }
+
+  .stat {
+    align-items: flex-start;
+  }
+
+  .section-3-stats h3 {
+    font-size: 58px;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+    color: var(--secondary);
+    margin-bottom: 1px;
+    /* mobile */
+  }
+
+  .section-3-stats p {
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    font-size: 24px;
+    /* mobile */
+  }
+
+  /* Section 4 ------------------------------------------------------------------------------- */
+  #section-4 {
+    height: 1328px;
+  }
+
+  .section-4-container {
+    width: calc(200% / 3);
+    min-width: 1200px;
+    padding: 140px 0;
+    gap: 66px;
+  }
+
+  .section-4-container h2 {
+    font-size: 64px;
+    line-height: 84px;
+  }
+
+  .team-members {
+    height: 912px;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 48px;
+    max-width: initial;
+  }
+
+  /* .member {
+    height: initial;
+  } */
+
+  /* Section 5 --------------------------------------------------------------------- */
+  #section-5 {
+    height: 502px;
+  }
+
+  /* Section 5 top */
+  .section-5-top {
+    height: 100%;
+  }
+
+  .car-background {
+    display: initial;
+  }
+
+  .jumper-cables-background {
+    display: initial;
+  }
+
+  .section-5-top-container {
+    width: calc(200% / 3);
+  }
+
+  .section-5-text {
+    padding: 128px 80px 0 80px;
+    width: 729px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  /* Section 5 top text */
+
+  .section-5-text h3 {
+    font-size: 48px;
+    width: 569px;
+    margin-bottom: 64px;
+    text-align: initial;
+  }
+}
+
+/* Laptops, larger tablets -------------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  .about-us-text p {
+    max-width: 768px;
+  }
+
+  .section-2-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .section-2-card.orange {
+    grid-column: 1 / span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-3-card {
+    max-width: 720px;
+  }
+
+  .section-3-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    max-width: 720px;
+  }
+
+  .team-members {
+    grid-template-columns: 1fr 1fr;
+    max-width: 720px;
+  }
+
+  .expert-service img {
+    display: none;
+  }
+
+  .section-5-text {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .car-background,
+  .jumper-cables-background {
+    display: initial;
+  }
+}

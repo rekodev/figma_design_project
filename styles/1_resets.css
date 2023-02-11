@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  color: var(--text-primary);
+}
+
+.button {
+  padding: 21px 49px;
+  border-radius: 12px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #ff6433;
+  text-decoration: none;
+}

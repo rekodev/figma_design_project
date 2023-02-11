@@ -1,0 +1,532 @@
+/* Section 1 ------------------------------------------------------------------------------- */
+#section-1 {
+  height: 624px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  /* mobile */
+  height: initial;
+  flex-direction: column;
+}
+
+.our-blog {
+  width: 45.15625%;
+  background: url('../images/blog/our-blog-background.svg');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  z-index: -2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* mobile */
+  width: 100%;
+  flex-direction: column;
+  height: 400px;
+}
+
+.our-blog-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(30, 27, 27, 0.8);
+  z-index: -1;
+}
+
+.our-blog h1 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 84px;
+  letter-spacing: -0.03em;
+  /* mobile */
+  font-size: 56px;
+}
+
+.our-blog-text {
+  padding: 128px 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  background-color: var(--text-primary);
+  width: 54.84375%;
+  /* mobile */
+  width: 100%;
+  padding: 50px;
+}
+
+.our-blog-text h4 {
+  color: var(--orange);
+  font-weight: 500;
+  letter-spacing: 0.24em;
+}
+
+.our-blog-text h2 {
+  width: 582px;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  color: #fff;
+  /* mobile */
+  width: 100%;
+  font-size: 36px;
+}
+
+.our-blog-text > p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 31.5px;
+  color: #fff;
+  margin-bottom: 32px;
+  width: 614px;
+  /* mobile */
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.button-date {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  /* mobile */
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button-date p {
+  opacity: 0.8;
+  color: #fff;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 600;
+  /* mobile */
+  order: -1;
+}
+
+/* Section 2 ------------------------------------------------------------------------------- */
+#section-2 {
+  height: 1002px;
+  background-color: #f5f5f5;
+  /* mobile */
+  height: initial;
+}
+
+.section-2-container {
+  margin: 0 auto;
+  height: 100%;
+  padding: 128px 0;
+  width: calc(200% / 3);
+  min-width: 1200px;
+  display: flex;
+  /* mobile */
+  flex-direction: column;
+  min-width: initial;
+  width: 100%;
+  padding: 0;
+}
+
+.buy-lease {
+  /* width: 537px; */
+  width: 42%;
+  height: 100%;
+  padding: 32px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  /* mobile */
+  width: 100%;
+}
+
+.buy-lease img {
+  margin-bottom: 16px;
+}
+
+.buy-lease h6 {
+  color: var(--grey);
+  opacity: 0.8;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.buy-lease h2 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  /* mobile */
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.buy-lease > p {
+  color: #232536;
+  opacity: 0.6;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+/* Know More */
+.know-more {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  /* Mobile */
+  margin-top: 0;
+  /* margin-left: 0;
+  justify-content: end; */
+}
+
+.know-more p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.know-more a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.know-more a img {
+  width: 52px;
+}
+
+/* Articles */
+.articles {
+  padding: 32px;
+  width: 58%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  /* mobile */
+  width: 100%;
+}
+
+.article {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.article img {
+  width: 192px;
+  height: 192px;
+}
+
+.article-text h5 {
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+  width: 478.56px;
+  /* mobile */
+  width: 100%;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.article-text p {
+  line-height: 28px;
+  font-weight: 600;
+  color: var(--grey);
+  opacity: 0.8;
+}
+
+/* Section 3 ------------------------------------------------------------------------------- */
+#section-3 {
+  height: 1532px;
+  /* mobile */
+  height: initial;
+}
+
+.section-3-container {
+  height: 100%;
+  width: calc(200% / 3);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+  padding: 128px 0;
+  /* mobile */
+  padding: 50px 0;
+  width: 80%;
+  grid-template-columns: 1fr;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card img {
+  margin-bottom: 16px;
+}
+
+.card h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--grey);
+}
+
+.card h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.03em;
+  /* mobile */
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.card p {
+  color: #232536;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+/* Section 5 --------------------------------------------------------------------- */
+#section-5 {
+  height: calc(502px + 210px);
+  /* mobile */
+  height: initial;
+}
+
+/* Section 5 top */
+.section-5-top {
+  height: 502px;
+  position: relative;
+  overflow: hidden;
+  /* mobile */
+  height: initial;
+}
+
+.car-background {
+  position: absolute;
+  z-index: -5;
+  width: 50%;
+  background: url('../images/index_main/car-background-image.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  /* mobile */
+  display: none;
+}
+
+.jumper-cables-background {
+  position: absolute;
+  z-index: -5;
+  width: 50%;
+  background: url('../images/index_main/jumper-cables.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  right: 0;
+  /* mobile */
+  display: none;
+}
+
+.section-5-top-container {
+  width: calc(200% / 3);
+  margin: 0 auto;
+  height: 100%;
+  /* mobile */
+  width: 100%;
+}
+
+.section-5-text {
+  background-color: #ff6433;
+  height: 100%;
+  padding: 128px 80px 0 80px;
+  width: 729px;
+  /* mobile */
+  width: 100%;
+  padding: 50px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+/* Section 5 top text */
+
+.section-5-text h3 {
+  color: #fff;
+  letter-spacing: -0.03em;
+  line-height: 67.2px;
+  font-size: 48px;
+  width: 569px;
+  margin-bottom: 64px;
+  /* mobile */
+  width: 80%;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.section-5-text .button {
+  background: #1e1b1b;
+  color: #fff;
+}
+
+/* Larget desktops and monitors --------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 1280px) {
+  /* Section 1 ------------------------------------------------------------------------------- */
+  #section-1 {
+    height: 624px;
+    flex-direction: row;
+  }
+
+  .our-blog {
+    width: 45.15625%;
+    height: 100%;
+    flex-direction: row;
+  }
+
+  .our-blog h1 {
+    font-size: 64px;
+  }
+
+  .our-blog-text {
+    padding: 128px 64px;
+    width: 54.84375%;
+  }
+
+  .our-blog-text h2 {
+    width: 582px;
+    font-size: 40px;
+  }
+
+  .our-blog-text > p {
+    font-size: 18px;
+    margin-bottom: 32px;
+    width: 614px;
+  }
+
+  .button-date {
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .button-date p {
+    order: initial;
+  }
+
+  /* Section 2 ------------------------------------------------------------------------------- */
+  #section-2 {
+    height: 1002px;
+  }
+
+  .section-2-container {
+    padding: 128px 0;
+    width: calc(200% / 3);
+    min-width: 1200px;
+    flex-direction: row;
+  }
+
+  .buy-lease {
+    width: 42%;
+  }
+
+  .buy-lease h2 {
+    font-size: 38px;
+    line-height: 56px;
+  }
+
+  /* Know More */
+  .know-more {
+    margin-top: 16px;
+    /* margin-left: 0;
+  justify-content: end; */
+  }
+
+  /* Articles */
+  .articles {
+    width: 58%;
+  }
+
+  .article-text h5 {
+    font-size: 32px;
+    line-height: 48px;
+    width: 478.56px;
+  }
+
+  /* Section 3 ------------------------------------------------------------------------------- */
+  #section-3 {
+    height: 1532px;
+  }
+
+  .section-3-container {
+    width: calc(200% / 3);
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 128px 0;
+  }
+
+  .card h3 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  /* Section 5 --------------------------------------------------------------------- */
+  #section-5 {
+    height: 502px;
+  }
+
+  /* Section 5 top */
+  .section-5-top {
+    height: 100%;
+  }
+
+  .car-background {
+    display: initial;
+  }
+
+  .jumper-cables-background {
+    display: initial;
+  }
+
+  .section-5-top-container {
+    width: calc(200% / 3);
+  }
+
+  .section-5-text {
+    padding: 128px 80px 0 80px;
+    width: 729px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  /* Section 5 top text */
+
+  .section-5-text h3 {
+    font-size: 48px;
+    width: 569px;
+    margin-bottom: 64px;
+    text-align: initial;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  .buy-lease img {
+    order: 2;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  .section-3-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}

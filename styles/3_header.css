@@ -1,0 +1,184 @@
+header {
+  height: 90px;
+}
+
+.header-container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0;
+  height: 100%;
+  /* width: calc(200% / 3); */
+  width: 95%;
+  /* min-width: 1200px; */
+}
+
+header .logo {
+  height: 27.43px;
+  width: 121.41px;
+}
+
+header button.button {
+  margin-left: 8px;
+  border: none;
+  font-size: 20px;
+  padding: 7.5px 15px;
+  cursor: pointer;
+  /* Mobile */
+  margin-right: 10px;
+}
+
+header .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+header nav {
+  position: absolute;
+  top: 70px;
+  left: -25px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav ul {
+  /* display: flex; */
+  display: none;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  gap: 0px; /* 40px */
+  /* Mobile */
+  width: 120px;
+  background-color: #fff;
+  /* padding: 25px 0; */
+  flex-direction: column;
+  align-self: flex-start;
+  z-index: 2;
+  border-radius: 15px;
+  border: 1px solid var(--steelgrey);
+  overflow: hidden;
+  box-shadow: 0 5px 10px -5px lightgray;
+}
+
+header nav ul li {
+  border-bottom: 1px solid var(--steelgrey);
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+
+header nav ul li:last-child {
+  border-bottom: none;
+}
+
+header nav ul li:hover {
+  background-color: var(--steelgrey);
+}
+
+header nav ul li a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: var(--text-primary);
+  font-size: 16px;
+  font-weight: 600;
+  height: 100%;
+  width: 100%;
+  /* Mobile */
+}
+
+.phone-call-image {
+  height: 40px;
+  width: 40px;
+}
+
+.road-assistance {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-left: 1px solid #939191;
+  padding-left: 10px;
+}
+
+.road-assistance-text h6 {
+  /* mobile */
+  font-size: 15px;
+}
+
+.road-assistance-text p {
+  font-size: 15px;
+}
+
+/* Larget desktops and monitors --------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 1280px) {
+  .header-container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+    height: 100%;
+    width: calc(200% / 3);
+    min-width: 1200px;
+  }
+
+  header button.button {
+    display: none;
+    margin-right: 32px;
+  }
+
+  header .navigation {
+    width: 683px;
+  }
+
+  header nav {
+    height: 100%;
+    position: initial;
+  }
+
+  header nav ul {
+    display: flex;
+    background-color: #fff;
+    flex-direction: row;
+    align-self: center;
+    position: initial;
+    z-index: initial;
+    border-radius: initial;
+    border: initial;
+    overflow: initial;
+    box-shadow: none;
+    width: initial;
+    gap: 40px;
+  }
+
+  header nav ul li {
+    border-bottom: none;
+    width: initial;
+  }
+
+  header nav ul li:hover {
+    background-color: initial;
+  }
+
+  header nav ul li a {
+    padding: 0;
+  }
+
+  .road-assistance {
+    padding-left: 32px;
+  }
+
+  .road-assistance-text h6 {
+    font-size: 18px;
+  }
+
+  .road-assistance-text p {
+    font-size: 16px;
+  }
+}

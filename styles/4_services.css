@@ -1,0 +1,744 @@
+/* Section 1 ------------------------------------------------------------------------------- */
+.section-1-container {
+  width: calc(200% / 3);
+  min-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 128px;
+  flex-direction: column;
+  gap: 128px;
+  /* mobile */
+  width: 100%;
+  min-width: initial;
+  padding: 0;
+}
+
+.our-services {
+  height: 550px;
+  display: flex;
+  position: relative;
+  width: 100%;
+  /* mobile */
+  flex-direction: column;
+  height: initial;
+}
+
+.our-services img {
+  width: 818px;
+  /* mobile */
+  width: 100%;
+}
+
+.our-services-text {
+  padding: 96px;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  position: absolute;
+  width: 733px;
+  height: 100%;
+  background-color: var(--text-primary);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  /* mobile */
+  padding: 50px;
+  position: initial;
+  width: 100%;
+  align-items: center;
+}
+
+.our-services-text h1 {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 84px;
+  line-height: -0.03em;
+  color: #f2f2f2;
+  /* mobile */
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.our-services-text p {
+  margin-bottom: 32px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 175%;
+  /* mobile */
+  margin-bottom: 20px;
+}
+
+/* Section 2 ------------------------------------------------------------------------------- */
+#section-2 {
+  height: 1016px;
+  background-color: #f5f5f5;
+  /* mobile */
+  height: initial;
+}
+
+.section-2-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  width: calc(200% / 3);
+  min-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 128px 0;
+  gap: 32px;
+  /* mobile */
+  grid-template-columns: 1fr;
+  min-width: initial;
+  padding: 0 0 50px 0;
+  width: 100%;
+}
+
+.section-2-diagnostics {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 64px 48px;
+  background-color: #fff;
+  /* mobile */
+  padding: 50px;
+}
+
+.section-2-diagnostics-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.section-2-diagnostics img {
+  margin-bottom: 16px;
+}
+
+.section-2-diagnostics-text h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 140%;
+  letter-spacing: -0.03em;
+  /* mobile */
+  font-size: 40px;
+}
+
+.section-2-diagnostics-text > p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+  color: #232536;
+  opacity: 0.6;
+  /* mobile */
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* Know More */
+.know-more {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  /* Mobile */
+  margin-left: 0;
+  justify-content: end;
+}
+
+.know-more p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.know-more a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.know-more a img {
+  width: 52px;
+}
+
+/* Section 2 cards */
+
+.section-2-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  /* mobile */
+  grid-template-columns: 1fr;
+  width: calc(200% / 3);
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.section-2-cards .section-2-card {
+  width: 316px;
+  height: 232px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  /* mobile */
+  width: 100%;
+}
+
+.section-2-card img {
+  width: 54.15px;
+}
+
+.section-2-card img.smaller {
+  width: 47.15px;
+}
+
+.section-2-card p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.section-2-card.selected,
+.section-2-card:hover {
+  background-color: #ff6433;
+  color: #fff;
+}
+
+/* Section 3 ------------------------------------------------------------------------------- */
+#section-3 {
+  height: 1362px;
+  /* mobile */
+  height: initial;
+}
+
+.section-3-container {
+  width: calc(200% / 3);
+  min-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 128px 0;
+  display: flex;
+  gap: 32px;
+  /* mobile */
+  width: 100%;
+  min-width: initial;
+  padding: 32px 0 16px 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-3-container h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 140%;
+  letter-spacing: -0.03em;
+  /* mobile */
+  width: 80%;
+  font-size: 40px;
+  line-height: 120%;
+}
+
+.work-process {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  /* mobile */
+  width: 100%;
+  height: initial;
+  align-items: center;
+  padding: 25px 0;
+  gap: 20px;
+}
+
+.checkmark {
+  margin-top: 16px;
+  display: flex;
+  gap: 24px;
+  width: 100%;
+  height: 72px;
+  /* mobile */
+  width: 80%;
+  height: initial;
+}
+
+.checkmark:nth-child(4) {
+  margin-bottom: 96px;
+  /* mobile */
+  margin-bottom: 32px;
+}
+
+.checkmark img {
+  width: 48px;
+  height: 48px;
+  /* mobile */
+  width: 40px;
+  height: 40px;
+}
+
+.checkmark p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+  /* mobile */
+  font-size: 20px;
+}
+
+.car-images {
+  height: auto;
+  display: flex;
+  gap: 16px;
+  /* mobile  */
+  order: 2;
+}
+
+.car-images img {
+  width: calc(50% - 8px);
+}
+
+.diagnose-problems {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 38px;
+  /* mobile */
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.diagnose-problems h2 {
+  margin-top: 96px;
+  /* mobile */
+  margin-top: 0;
+  width: 75%;
+  text-align: center;
+  font-size: 36px;
+}
+
+.diagnose-problems p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 175%;
+  color: #232536;
+  opacity: 0.6;
+}
+
+.diagnose-problems h2,
+.diagnose-problems p,
+.diagnose-problems .button {
+  margin-left: 56px;
+  margin-right: 56px;
+}
+
+/* Section 5 --------------------------------------------------------------------- */
+#section-5 {
+  height: calc(502px + 210px);
+  /* mobile */
+  height: initial;
+}
+
+/* Section 5 top */
+.section-5-top {
+  height: 502px;
+  position: relative;
+  overflow: hidden;
+  /* mobile */
+  height: initial;
+}
+
+.car-background {
+  position: absolute;
+  z-index: -5;
+  width: 50%;
+  background: url('../images/index_main/car-background-image.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  /* mobile */
+  display: none;
+}
+
+.jumper-cables-background {
+  position: absolute;
+  z-index: -5;
+  width: 50%;
+  background: url('../images/index_main/jumper-cables.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  right: 0;
+  /* mobile */
+  display: none;
+}
+
+.section-5-top-container {
+  width: calc(200% / 3);
+  margin: 0 auto;
+  height: 100%;
+  /* mobile */
+  width: 100%;
+}
+
+.section-5-text {
+  background-color: #ff6433;
+  height: 100%;
+  padding: 128px 80px 0 80px;
+  width: 729px;
+  /* mobile */
+  width: 100%;
+  padding: 50px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+/* Section 5 top text */
+
+.section-5-text h3 {
+  color: #fff;
+  letter-spacing: -0.03em;
+  line-height: 67.2px;
+  font-size: 48px;
+  width: 569px;
+  margin-bottom: 64px;
+  /* mobile */
+  width: 80%;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.section-5-text .button {
+  background: #1e1b1b;
+  color: #fff;
+}
+
+/* Section 5 bottom */
+.section-5-bottom {
+  background: #f2f2f2;
+  height: 210px;
+  /* mobile */
+  height: initial;
+}
+
+.section-5-bottom-container {
+  width: calc(200% / 3);
+  min-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* mobile */
+  min-width: initial;
+  width: calc(100% / 3);
+  min-width: 320px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px 25px;
+  gap: 20px;
+  text-align: center;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-5-bottom-container h3 {
+  font-size: 58px;
+  letter-spacing: -0.03em;
+  font-weight: 800;
+  color: var(--secondary);
+  margin-bottom: 1px;
+  /* mobile */
+  font-size: 36px;
+  text-align: center;
+}
+
+.section-5-bottom-container p {
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  font-size: 24px;
+  margin-top: 1px;
+  /* mobile */
+  font-size: 20px;
+  max-width: 130px;
+}
+
+/* Larget desktops and monitors --------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 1280px) {
+  /* Section 1 ------------------------------------------------------------------------------- */
+  .section-1-container {
+    width: calc(200% / 3);
+    min-width: 1200px;
+    padding-top: 80px;
+    padding-bottom: 128px;
+  }
+
+  .our-services {
+    height: 550px;
+    flex-direction: row;
+  }
+
+  .our-services img {
+    width: 818px;
+  }
+
+  .our-services-text {
+    padding: 96px;
+    position: absolute;
+    width: 733px;
+    align-items: flex-start;
+  }
+
+  .our-services-text h1 {
+    font-size: 64px;
+    line-height: 84px;
+    text-align: initial;
+  }
+
+  .our-services-text p {
+    margin-bottom: 32px;
+  }
+
+  /* Section 2 ------------------------------------------------------------------------------- */
+  #section-2 {
+    height: 1016px;
+  }
+
+  .section-2-container {
+    grid-template-columns: 1fr 1fr;
+    width: calc(200% / 3);
+    min-width: 1200px;
+    padding: 128px 0;
+  }
+
+  .section-2-diagnostics {
+    padding: 64px 48px;
+  }
+
+  .section-2-diagnostics h2 {
+    font-size: 48px;
+  }
+
+  .section-2-diagnostics-text > p {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  /* Know More */
+  .know-more {
+    margin-left: initial;
+    justify-content: start;
+  }
+
+  /* Section 2 cards */
+
+  .section-2-cards {
+    grid-template-columns: 1fr 1fr;
+    width: initial;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: initial;
+  }
+
+  .section-2-cards .section-2-card {
+    width: 316px;
+  }
+
+  /* Section 3 ------------------------------------------------------------------------------- */
+  #section-3 {
+    height: 1362px;
+  }
+
+  .section-3-container {
+    width: calc(200% / 3);
+    min-width: 1200px;
+    padding: 128px 0;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .section-3-container h2 {
+    font-size: 48px;
+    line-height: 140%;
+    width: initial;
+  }
+
+  .work-process {
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    padding: initial;
+  }
+
+  .checkmark {
+    width: 100%;
+    height: 72px;
+  }
+
+  .checkmark:nth-child(4) {
+    margin-bottom: 96px;
+  }
+
+  .checkmark img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .checkmark p {
+    font-size: 24px;
+  }
+
+  .car-images {
+    order: initial;
+  }
+
+  .diagnose-problems {
+    width: 50%;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .diagnose-problems h2 {
+    margin-top: 96px;
+    width: initial;
+    text-align: initial;
+  }
+
+  /* Section 5 --------------------------------------------------------------------- */
+  #section-5 {
+    height: 502px;
+  }
+
+  /* Section 5 top */
+  .section-5-top {
+    height: 100%;
+  }
+
+  .car-background {
+    display: initial;
+  }
+
+  .jumper-cables-background {
+    display: initial;
+  }
+
+  .section-5-top-container {
+    width: calc(200% / 3);
+  }
+
+  .section-5-text {
+    padding: 128px 80px 0 80px;
+    width: 729px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  /* Section 5 top text */
+
+  .section-5-text h3 {
+    font-size: 48px;
+    width: 569px;
+    margin-bottom: 64px;
+    text-align: initial;
+  }
+
+  /* Section 5 bottom */
+  .section-5-bottom {
+    height: 210px;
+  }
+
+  .section-5-bottom-container {
+    width: calc(200% / 3);
+    min-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 48px 0;
+    gap: 0;
+    text-align: initial;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-5-bottom-container h3 {
+    font-size: 58px;
+    text-align: initial;
+  }
+
+  .section-5-bottom-container p {
+    font-size: 24px;
+    max-width: initial;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .section-2-diagnostics {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 32px;
+  }
+
+  .section-2-diagnostics img {
+    align-self: center;
+  }
+
+  .section-2-diagnostics-text {
+    grid-column: 1 / span 1;
+    grid-row: 1;
+  }
+
+  .section-2-diagnostics-text > p {
+    font-size: 20px;
+  }
+
+  .section-2-diagnostics-text .know-more {
+    margin-top: 0;
+    margin-left: 0;
+    justify-content: flex-start;
+  }
+
+  .section-2-cards {
+    grid-template-columns: 1fr 1fr;
+    max-width: calc(312px * 2 + 32px);
+  }
+
+  .car-background,
+  .jumper-cables-background {
+    display: initial;
+  }
+
+  .section-5-text {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
