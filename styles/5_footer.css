@@ -13,18 +13,13 @@ footer {
 }
 
 .footer-top-container {
-  width: calc(200% / 3);
-  min-width: 1200px;
-  height: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 549px;
   color: #fff;
-  padding: 128px 0;
   background: #222020;
-  /* mobile */
   min-width: initial;
   width: 100%;
   height: initial;
@@ -35,12 +30,8 @@ footer {
 }
 
 .footer-top-container .footer-top-container-social {
-  width: 50%;
-  height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 64px;
-  /* mobile */
   justify-content: center;
   align-items: center;
   width: 90%;
@@ -49,12 +40,8 @@ footer {
 }
 
 .footer-top-container .footer-top-container-social h3 {
-  font-size: 48px;
   font-weight: 700;
-  line-height: 67.2px;
   letter-spacing: -0.03em;
-  width: 463px;
-  /* mobile */
   width: 100%;
   font-size: 36px;
   line-height: 50px;
@@ -74,8 +61,6 @@ footer {
   height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  /* mobile */
   gap: 20px;
 }
 
@@ -88,25 +73,16 @@ footer {
 }
 
 .footer-top-container .footer-top-location p {
-  font-size: 24px;
   letter-spacing: -0.03em;
   font-weight: 600;
-  /* mobile */
   font-size: 20px;
 }
 
 /* Footer bottom */
 .footer-bottom-container {
-  height: 157px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 24px 0;
-  height: 100%;
-  width: calc(200% / 3);
-  min-width: 1200px;
-  /* mobile */
   height: initial;
   flex-direction: column;
   gap: 40px;
@@ -130,12 +106,10 @@ footer {
 }
 
 .footer-bottom-container .footer-navigation nav {
-  height: 42px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-right: 42px;
-  /* mobile */
+
   height: initial;
   padding-right: 0;
 }
@@ -143,10 +117,7 @@ footer {
 .footer-bottom-container nav ul {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
   list-style: none;
-  gap: 40px;
-  /* mobile */
   flex-direction: column;
   justify-content: center;
   gap: 35px;
@@ -161,6 +132,10 @@ footer {
 
 .footer-bottom-container p {
   color: var(--grey);
+}
+
+.footer-bottom-container a:hover {
+  opacity: 0.5;
 }
 
 /* Larget desktops and monitors --------------------------------------------------------------------------------------------- */

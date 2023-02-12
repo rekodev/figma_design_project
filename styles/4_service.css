@@ -1,17 +1,11 @@
 /* Section 1 ------------------------------------------------------------------------------- */
 #section-1 {
-  height: 1742px;
-  /* mobile */
   height: initial;
 }
 
 #section-1 h1 {
   font-weight: 800;
-  font-size: 64px;
-  line-height: 84px;
   letter-spacing: -0.03em;
-  margin-bottom: 96px;
-  /* mobile */
   text-align: center;
   font-size: 48px;
   line-height: 60px;
@@ -19,14 +13,10 @@
 }
 
 .section-1-container {
-  width: calc(200% / 3);
-  min-width: 1200px;
   margin: 0 auto;
   height: 100%;
-  padding-top: 80px;
   display: flex;
   flex-direction: column;
-  /* mobile */
   min-width: initial;
   width: 100%;
   padding: 50px 0 32px 0;
@@ -34,22 +24,16 @@
 
 .section-1-content {
   display: flex;
-  gap: 96px;
   width: 100%;
-  height: 100%;
-  /* mobile */
   flex-direction: column;
   height: initial;
   gap: 32px;
 }
 
 .section-1-content aside {
-  width: 27.333%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   gap: 32px;
-  /* mobile */
   height: initial;
   width: 100%;
 }
@@ -61,19 +45,15 @@
   align-items: center;
   width: 100%;
   gap: 32px;
-  height: 670px;
   padding: 32px;
-  /* mobile */
   height: initial;
 }
 
 .other-services h4 {
-  align-self: flex-start;
   font-weight: 700;
   font-size: 32px;
   line-height: 48px;
   letter-spacing: -0.03em;
-  /* mobile */
   align-self: center;
 }
 
@@ -86,10 +66,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
   gap: 16px;
   padding: 32px;
-  /* mobile */
   width: calc(200% / 3);
 }
 
@@ -102,8 +80,6 @@
   display: flex;
   gap: 16px;
   justify-content: center;
-  /* Mobile */
-  /* height: 100%; */
   width: 80%;
   margin: 0 auto;
 }
@@ -116,8 +92,6 @@
 }
 
 .card-text {
-  width: 322px;
-  /* Mobile  */
   width: 100%;
 }
 
@@ -138,11 +112,9 @@
 
 /* Article  */
 .section-1-content article {
-  width: calc(72.667%);
   display: flex;
   flex-direction: column;
   gap: 24px;
-  /* mobile */
   width: 100%;
 }
 
@@ -166,8 +138,6 @@ article .car-image {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  margin-bottom: 32px;
-  /* mobile */
   margin-bottom: 0;
 }
 
@@ -201,23 +171,18 @@ article p:nth-child(4) {
 article p.border-left {
   padding: 12px 0 12px 32px;
   border-left: 3px solid var(--text-primary);
-  /* mobile */
   margin-bottom: 32px;
 }
 
 /* Section 5 --------------------------------------------------------------------- */
 #section-5 {
-  height: calc(502px + 210px);
-  /* mobile */
   height: initial;
 }
 
 /* Section 5 top */
 .section-5-top {
-  height: 502px;
   position: relative;
   overflow: hidden;
-  /* mobile */
   height: initial;
 }
 
@@ -230,7 +195,6 @@ article p.border-left {
   background-size: cover;
   background-position: center center;
   height: 100%;
-  /* mobile */
   display: none;
 }
 
@@ -244,24 +208,18 @@ article p.border-left {
   background-position: center center;
   height: 100%;
   right: 0;
-  /* mobile */
   display: none;
 }
 
 .section-5-top-container {
-  width: calc(200% / 3);
   margin: 0 auto;
   height: 100%;
-  /* mobile */
   width: 100%;
 }
 
 .section-5-text {
-  background-color: #ff6433;
+  background-color: var(--orange);
   height: 100%;
-  padding: 128px 80px 0 80px;
-  width: 729px;
-  /* mobile */
   width: 100%;
   padding: 50px 25px;
   display: flex;
@@ -277,10 +235,6 @@ article p.border-left {
   color: #fff;
   letter-spacing: -0.03em;
   line-height: 67.2px;
-  font-size: 48px;
-  width: 569px;
-  margin-bottom: 64px;
-  /* mobile */
   width: 80%;
   text-align: center;
   font-size: 40px;
@@ -290,6 +244,11 @@ article p.border-left {
 .section-5-text .button {
   background: #1e1b1b;
   color: #fff;
+}
+
+.section-5-text .button:hover {
+  background-color: #fff;
+  color: var(--text-primary);
 }
 
 /* Larget desktops and monitors --------------------------------------------------------------------------------------------- */

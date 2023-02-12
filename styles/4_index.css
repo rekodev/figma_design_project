@@ -1,17 +1,13 @@
 /* Section 1 ---------------------------------------------------------------------*/
 #section-1,
 #section-2 {
-  height: 894px;
-  /* mobile */
   height: initial;
 }
 
 .section-1-container {
   width: 95%;
   margin: 0 auto;
-  height: 100%;
   display: flex;
-  /* Mobile */
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -21,7 +17,6 @@
 
 /* Section 1 Text  */
 .section-1-text {
-  /* Mobile */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,7 +27,6 @@ h1 {
   font-weight: 800;
   margin-bottom: 52px;
   letter-spacing: -3px;
-  /* Mobile */
   font-size: 48px;
   width: 80%;
   text-align: center;
@@ -43,7 +37,7 @@ h1 {
   border-radius: 12px;
   font-weight: 600;
   color: #fff;
-  background-color: #ff6433;
+  background-color: var(--orange);
   text-decoration: none;
 }
 
@@ -52,7 +46,6 @@ h1 {
   display: flex;
   align-items: center;
   gap: 13.05px;
-  /* Mobile */
   width: 80%;
   margin-bottom: 50px;
 }
@@ -67,16 +60,12 @@ h1 {
 }
 
 .opening h6 {
-  font-size: 18px;
-  /* mobile */
   font-size: 16px;
 }
 
 /* Section 1 img */
 .section-1-image {
-  height: 632px;
   position: relative;
-  /* Mobile  */
   width: 80%;
   height: initial;
 }
@@ -93,29 +82,21 @@ h1 {
   border-radius: 59px;
   border: 12px solid rgba(225, 225, 225, 0.43);
   background-clip: padding-box;
-  height: 114px;
-  width: 320px;
-  padding: 0 40px 0 10px;
-  /* Mobile */
+  padding: 0 40px 0 5px;
   top: 50px;
   height: 80px;
   width: 250px;
-  padding-left: 5px;
 }
 
 .quick-service .hr-24 {
-  height: 70px;
-  width: 69.66px;
   border-radius: 50%;
   background-color: #5cba99;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 24px;
   font-weight: 600px;
   letter-spacing: -0.5px;
   color: #fff;
-  /* Mobile */
   height: 45px;
   width: 45px;
   font-size: 18px;
@@ -125,12 +106,9 @@ h1 {
   font-size: 16px;
   margin-left: 3px;
   letter-spacing: 0;
-  /* Mobile */
 }
 
 .quick-service-paragraph {
-  font-size: 24px;
-  /* Mobile */
   font-size: 18px;
 }
 
@@ -142,13 +120,10 @@ h1 {
   color: #000;
   padding-right: 25px;
   padding-left: 25px;
-  /* Mobile */
   bottom: 50px;
 }
 
 .rating h5 {
-  font-size: 24px;
-  /* Mobile */
   font-size: 18px;
 }
 
@@ -161,9 +136,6 @@ h1 {
 
 .stars img {
   padding: 2px;
-  width: 36px;
-  height: 36px;
-  /* Mobile */
   height: 24px;
   width: 24px;
 }
@@ -174,17 +146,12 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* Mobile  */
   height: initial;
 }
 
 .section-2-container {
   height: 100%;
-  padding: 128px 0;
-  width: calc(200% / 3);
-  min-width: 1200px;
   display: flex;
-  /* Mobile */
   flex-direction: column;
   width: 95%;
   min-width: initial;
@@ -196,23 +163,18 @@ h1 {
 /* Section 2 text */
 
 .section-2-text {
-  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 32px;
-  /* Mobile */
-
   width: 80%;
 }
 
 .section-2-text h2 {
   font-weight: 800;
-  font-size: 58px;
   line-height: 76px;
   letter-spacing: -0.03em;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 16px;
-  /* Mobile  */
   text-align: center;
   font-size: 48px;
 }
@@ -221,9 +183,7 @@ h1 {
 .section-2-text-card {
   display: flex;
   gap: 16px;
-  height: 110px;
   justify-content: center;
-  /* Mobile */
   height: 100%;
 }
 
@@ -236,8 +196,6 @@ h1 {
 }
 
 .card-text {
-  width: 322px;
-  /* Mobile  */
   width: 100%;
 }
 
@@ -259,8 +217,6 @@ h1 {
 .know-more {
   display: flex;
   gap: 21px;
-  margin-left: 66px;
-  /* Mobile */
   margin-left: 0;
   justify-content: end;
 }
@@ -282,41 +238,33 @@ h1 {
 
 /* Section 2 form */
 .section-2-form {
-  width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
   gap: 32px;
-  /* Mobile */
   width: 80%;
   align-items: center;
 }
 
 .section-2-form h2 {
-  font-size: 48px;
   font-weight: 700;
-  /* Mobile */
   text-align: center;
   font-size: 48px;
 }
 
 .section-2-form .inputs {
-  width: 624px;
   display: flex;
   flex-direction: column;
   gap: 4px;
-  /* Mobile */
   align-items: center;
   width: 100%;
 }
 
 .section-2-form .inputs input {
-  width: 100%;
   height: calc(72px - 11.5px);
   outline: none;
   border: none;
   padding: 23px 40px;
-  /* Mobile */
   width: 95%;
 }
 
@@ -330,19 +278,13 @@ h1 {
 
 /* Section 3 ---------------------------------------------------------------------*/
 #section-3 {
-  height: 850px;
-  /* Mobile */
   height: initial;
 }
 
 .section-3-container {
-  padding: 162px 0;
   margin: 0 auto;
-  width: calc(200% / 3);
-  min-width: 1200px;
   height: 100%;
   display: flex;
-  /* Mobile */
   flex-direction: column;
   align-items: center;
   width: 95%;
@@ -351,10 +293,7 @@ h1 {
 }
 
 .section-3-container h2 {
-  font-size: 58px;
   letter-spacing: -0.03em;
-  width: 524px;
-  /* Mobile */
   width: 80%;
   font-size: 40px;
 }
@@ -363,8 +302,6 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  width: 50%;
-  /* Mobile */
   align-items: center;
   text-align: center;
   width: 80%;
@@ -373,11 +310,9 @@ h1 {
 
 .section-3-text p {
   margin-bottom: 16px;
-  width: 437px;
   line-height: 28px;
   font-weight: 600;
   opacity: 0.6;
-  /* Mobile */
   width: 80%;
 }
 
@@ -387,57 +322,45 @@ h1 {
 
 /* Section 3 step */
 .section-3-steps {
-  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  /* Mobile */
   align-items: center;
   width: 80%;
 }
 
 .step {
-  height: calc(96px + 72px);
   display: flex;
   gap: 24px;
-  /* mobile */
   height: 100%;
   width: 80%;
 }
 
 .step-number {
-  padding: 12px 0;
   width: 72px;
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  /* mobile */
   padding: 12px 0 0 0;
   height: auto;
 }
 
 .step-number .number {
-  width: 100%;
-  height: 72px;
   background-color: var(--secondary);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  /* mobile */
   width: 64px;
   height: 64px;
   padding: 20px 0;
 }
 
 .number h5 {
-  font-size: 32px;
   color: #fff;
-  /* Mobile */
   font-size: 24px;
 }
 
@@ -453,10 +376,8 @@ h1 {
 }
 
 .dotted-line {
-  border: 1.5px dashed #ff6433;
+  border: 1.5px dashed var(--orange);
   width: 0;
-  height: 72px;
-  /* mobile */
   height: 100%;
 }
 
@@ -469,42 +390,32 @@ h1 {
 }
 
 .step-text h4 {
-  font-size: 32px;
   letter-spacing: -0.03em;
-  /* mobile */
   font-size: 28px;
 }
 
 .step-text p {
-  width: 336px;
   font-weight: 600;
   font-size: 18px;
   line-height: 175%;
   opacity: 0.6;
-  /* mobile */
   width: 100%;
 }
 
 /* Section 4 -------------------------------------------------------------------- */
 #section-4 {
   background: #f2f2f2;
-  height: 1052px;
-  /* mobile */
   height: initial;
 }
 
 .section-4-container {
   margin: 0 auto;
-  width: calc(200% / 3);
-  min-width: 1200px;
   height: 100%;
-  padding: 128px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   gap: 32px;
-  /* mobile */
   padding: 50px 0;
   min-width: initial;
   width: 95%;
@@ -517,28 +428,22 @@ h1 {
 }
 
 .section-4-container h2 {
-  font-size: 58px;
   line-height: 76px;
   letter-spacing: -0.03em;
-  width: 858px;
   margin-bottom: 32px;
   font-weight: 800;
-  /* mobile */
   width: 80%;
   font-size: 36px;
 }
 
 .section-4-container .know-more {
   align-self: flex-end;
-  /* mobile */
   padding-right: 20px;
 }
 
 .section-4-cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 8px;
-  /* mobile */
   grid-template-columns: 1fr;
   width: calc(200% / 3);
   align-items: center;
@@ -546,7 +451,6 @@ h1 {
 }
 
 .section-4-cards .section-4-card {
-  width: 316px;
   height: 232px;
   background-color: #fff;
   display: flex;
@@ -554,7 +458,6 @@ h1 {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  /* mobile */
   width: 100%;
 }
 
@@ -573,23 +476,19 @@ h1 {
 
 .section-4-card.selected,
 .section-4-card:hover {
-  background-color: #ff6433;
+  background-color: var(--orange);
   color: #fff;
 }
 
 /* Section 5 --------------------------------------------------------------------- */
 #section-5 {
-  height: calc(502px + 210px);
-  /* mobile */
   height: initial;
 }
 
 /* Section 5 top */
 .section-5-top {
-  height: 502px;
   position: relative;
   overflow: hidden;
-  /* mobile */
   height: initial;
 }
 
@@ -602,7 +501,6 @@ h1 {
   background-size: cover;
   background-position: center center;
   height: 100%;
-  /* mobile */
   display: none;
 }
 
@@ -616,23 +514,18 @@ h1 {
   background-position: center center;
   height: 100%;
   right: 0;
-  /* mobile */
   display: none;
 }
 
 .section-5-top-container {
-  width: calc(200% / 3);
   margin: 0 auto;
   height: 100%;
-  /* mobile */
   width: 100%;
 }
 
 .section-5-text {
-  background-color: #ff6433;
+  background-color: var(--orange);
   height: 100%;
-  padding: 128px 80px 0 80px;
-  width: 729px;
   /* mobile */
   width: 100%;
   padding: 50px 25px;
@@ -664,24 +557,22 @@ h1 {
   color: #fff;
 }
 
+.section-5-text .button:hover {
+  background-color: #fff;
+  color: var(--text-primary);
+}
+
 /* Section 5 bottom */
 .section-5-bottom {
   background: #f2f2f2;
-  height: 210px;
-  /* mobile */
   height: initial;
 }
 
 .section-5-bottom-container {
-  width: calc(200% / 3);
-  min-width: 1200px;
   height: 100%;
   margin: 0 auto;
-  display: flex;
   justify-content: space-between;
   align-items: center;
-  /* mobile */
-  min-width: initial;
   width: calc(100% / 3);
   min-width: 320px;
   display: grid;
@@ -699,12 +590,10 @@ h1 {
 }
 
 .section-5-bottom-container h3 {
-  font-size: 58px;
   letter-spacing: -0.03em;
   font-weight: 800;
   color: var(--secondary);
   margin-bottom: 1px;
-  /* mobile */
   font-size: 36px;
   text-align: center;
 }
@@ -712,31 +601,23 @@ h1 {
 .section-5-bottom-container p {
   font-weight: 600;
   letter-spacing: -0.03em;
-  font-size: 24px;
   margin-top: 1px;
-  /* mobile */
   font-size: 20px;
   max-width: 130px;
 }
 
 /* Section 6 --------------------------------------------------------------------- */
 #section-6 {
-  height: 611px;
-  /* mobile */
   height: initial;
 }
 
 .section-6-container {
-  width: calc(200% / 3);
   margin: 0 auto;
-  min-width: 1200px;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 40px;
-  /* mobile */
   width: 95%;
   min-width: initial;
   gap: 20px;
@@ -744,17 +625,13 @@ h1 {
 }
 
 .section-6-container h2 {
-  font-size: 48px;
   letter-spacing: -0.03em;
-  /* mobile */
   font-size: 40px;
 }
 
 .brands {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 38.6px;
-  /* mobile */
   grid-template-columns: 1fr 1fr;
   width: 100%;
 }
@@ -766,46 +643,34 @@ h1 {
 }
 
 .brands .brand img {
-  width: 224px;
-  /* mobile */
   width: 100%;
   max-width: 224px;
 }
 
 /* Section 7 --------------------------------------------------------------------- */
 #section-7 {
-  height: 938px;
   background-color: #f2f2f2;
-  /* mobile */
   height: initial;
 }
 
 .section-7-container {
-  width: calc(200% / 3);
   margin: 0 auto;
-  min-width: 1200px;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 48px;
-  padding: 128px 0;
-  /* mobile */
   width: 95%;
   min-width: initial;
   padding: 50px 0;
 }
 
 .section-7-container h2 {
-  font-size: 48px;
   font-weight: 700;
   line-height: 67.2px;
   letter-spacing: -0.03em;
   text-align: center;
-  width: 909px;
-  margin-bottom: 46px;
-  /* mobile */
   width: 80%;
   font-size: 40px;
   margin-bottom: 0;
@@ -813,18 +678,13 @@ h1 {
 
 .reviews {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   gap: 48px;
-  /* mobile */
   justify-content: center;
 }
 
 .review {
-  height: 376px;
-  width: 616px;
   background-color: #fff;
-  padding: 72px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -876,7 +736,6 @@ h1 {
   justify-content: center;
   position: relative;
   width: 100%;
-  /* mobile */
   flex-direction: column;
   align-items: center;
   gap: 24px;
@@ -897,19 +756,16 @@ h1 {
 }
 
 .line.selected {
-  background-color: #ff6433;
+  background-color: var(--orange);
 }
 
 /* Arrows */
 .arrows {
-  position: absolute;
   top: 0;
   right: 0;
   display: flex;
   height: 100%;
-  gap: 24px;
   align-items: center;
-  /* mobile */
   gap: 12px;
   position: initial;
 }
@@ -924,21 +780,15 @@ h1 {
 
 /* Section 8 */
 #section-8 {
-  height: 1140px;
   background-color: var(--steelgrey);
-  /* mobile */
   height: initial;
 }
 
 .section-8-container {
-  width: 896px;
   margin: 0 auto;
   height: 100%;
-  padding: 128px 0;
   display: flex;
   flex-direction: column;
-  gap: 95px;
-  /* mobile */
   width: 90%;
   padding: 50px 0;
   gap: 48px;
@@ -946,10 +796,8 @@ h1 {
 
 .section-8-container h3 {
   font-weight: 700;
-  font-size: 48px;
   text-align: center;
   letter-spacing: -0.03em;
-  /* mobile */
   font-size: 40px;
 }
 
@@ -960,29 +808,23 @@ h1 {
 }
 
 .faq {
-  padding: 28.5px 40px;
   background-color: #fff;
   position: relative;
-  /* mobile */
   padding: 25px 30px;
 }
 
 .faq h5 {
-  font-size: 24px;
   letter-spacing: -0.03em;
   font-weight: 600;
-  /* mobile */
   font-size: 20px;
 }
 
 .faq.maximized p {
-  width: 701px;
   margin-top: 16px;
   font-weight: 600px;
   font-size: 18px;
   line-height: 31.5px;
   color: var(--grey);
-  /* mobile */
   width: 100%;
 }
 
@@ -990,18 +832,16 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* mobile */
   gap: 20px;
 }
 
 .minimize {
   height: 48px;
   width: 51px;
-  background-color: #ff6433;
+  background-color: var(--orange);
   display: flex;
   justify-content: center;
   align-items: center;
-  /* mobile */
   min-width: 50px;
   max-width: 52px;
 }

@@ -1,18 +1,12 @@
 /* Section 1 -------------------------------------------------------------------------------- */
 #section-1 {
-  height: calc(1270px - 90px);
-  /* mobile */
   height: initial;
 }
 
 .section-1-container {
-  width: calc(200% / 3);
-  min-width: 1200px;
   margin: 0 auto;
   height: 100%;
   display: flex;
-  padding-top: 80px;
-  /* mobile */
   flex-direction: column;
   width: 95%;
   min-width: initial;
@@ -22,11 +16,7 @@
 
 h1 {
   font-weight: 800;
-  font-size: 64px;
-  line-height: 84px;
   letter-spacing: -0.03em;
-  width: 505px;
-  /* mobile */
   text-align: center;
   font-size: 40px;
   line-height: 60px;
@@ -35,22 +25,18 @@ h1 {
 }
 
 .section-1-form {
-  width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
   gap: 48px;
-  /* mobile */
   width: 100%;
   align-items: center;
 }
 
 .section-1-form .inputs {
-  width: 624px;
   display: flex;
   flex-direction: column;
   gap: 4px;
-  /* mobile */
   width: calc(200% / 3);
 }
 
@@ -73,14 +59,10 @@ h1 {
 
 /* Location */
 .section-1-location {
-  width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
   gap: 28px;
-  padding-left: 130px;
-  padding-top: 206px;
-  /* mobile */
   padding: 50px 0;
   align-items: center;
   text-align: center;
@@ -97,10 +79,8 @@ h1 {
 }
 
 .section-1-location p {
-  font-size: 24px;
   letter-spacing: -0.03em;
   font-weight: 600;
-  /* mobile */
   font-size: 20px;
 }
 
@@ -111,18 +91,13 @@ h1 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* mobile */
-  background-size: initial;
 }
 
 .section-2-container {
   position: relative;
-  width: calc(200% / 3);
-  min-width: 1200px;
   margin: 0 auto;
   height: 100%;
   display: flex;
-  /* mobile */
   flex-direction: column;
   width: 95%;
   min-width: initial;
@@ -131,9 +106,7 @@ h1 {
 
 #nyc-map {
   position: absolute;
-  bottom: -140px;
   width: 95%;
-  /* mobile */
   bottom: initial;
   top: -100px;
 }

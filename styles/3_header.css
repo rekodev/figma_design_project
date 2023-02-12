@@ -9,9 +9,7 @@ header {
   justify-content: space-between;
   padding: 24px 0;
   height: 100%;
-  /* width: calc(200% / 3); */
   width: 95%;
-  /* min-width: 1200px; */
 }
 
 header .logo {
@@ -25,7 +23,6 @@ header button.button {
   font-size: 20px;
   padding: 7.5px 15px;
   cursor: pointer;
-  /* Mobile */
   margin-right: 10px;
 }
 
@@ -47,16 +44,13 @@ header nav {
 }
 
 header nav ul {
-  /* display: flex; */
   display: none;
   align-items: center;
   justify-content: space-evenly;
   list-style: none;
-  gap: 0px; /* 40px */
-  /* Mobile */
+  gap: 0px;
   width: 120px;
   background-color: #fff;
-  /* padding: 25px 0; */
   flex-direction: column;
   align-self: flex-start;
   z-index: 2;
@@ -90,7 +84,6 @@ header nav ul li a {
   font-weight: 600;
   height: 100%;
   width: 100%;
-  /* Mobile */
 }
 
 .phone-call-image {
@@ -107,7 +100,6 @@ header nav ul li a {
 }
 
 .road-assistance-text h6 {
-  /* mobile */
   font-size: 15px;
 }
 
@@ -168,6 +160,10 @@ header nav ul li a {
 
   header nav ul li a {
     padding: 0;
+  }
+
+  header nav ul li a:hover {
+    opacity: 0.5;
   }
 
   .road-assistance {

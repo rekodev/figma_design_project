@@ -1,19 +1,11 @@
 #section-1 {
-  height: 1659px;
-  /* mobile */
   height: initial;
 }
 
 .section-1-container {
-  width: calc(200% / 3);
-  min-width: 1200px;
   margin: 0 auto;
-  height: 100%;
   display: flex;
-  padding-top: 80px;
   flex-direction: column;
-  gap: 128px;
-  /* mobile */
   width: 100%;
   min-width: initial;
   gap: 50px;
@@ -22,38 +14,27 @@
 }
 
 .about-us {
-  height: 550px;
   display: flex;
-  position: relative;
   width: 100%;
-  /* mobile */
   flex-direction: column;
   position: initial;
   height: initial;
 }
 
 .about-us img {
-  width: 818px;
-  /* mobile */
   order: 1;
   width: 100%;
 }
 
 .about-us-text {
-  padding: 96px;
   z-index: 1;
   top: 0;
   right: 0;
-  position: absolute;
-  width: 733px;
-  height: 100%;
   background-color: var(--text-primary);
   color: #fff;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 16px;
-  /* mobile */
   position: initial;
   width: 100%;
   height: initial;
@@ -63,43 +44,32 @@
 
 .about-us-text h1 {
   font-weight: 800;
-  font-size: 64px;
   line-height: 84px;
   line-height: -0.03em;
   color: #f2f2f2;
-  /* mobile */
   font-size: 48px;
 }
 
 .about-us-text p {
   font-weight: 600;
-  font-size: 18px;
   line-height: 175%;
   color: #f2f2f2;
-  margin-bottom: 48px;
-  /* mobile */
   font-size: 16px;
   margin-bottom: 28px;
 }
 
 .expert-service {
   width: 100%;
-  height: 773px;
   display: flex;
-  /* mobile */
   height: initial;
   flex-direction: column;
   align-items: center;
 }
 
 .expert-service-text {
-  width: 52.25%;
-  padding-right: 93px;
-  height: 100%;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  /* mobile */
   height: initial;
   width: 80%;
   align-items: center;
@@ -107,11 +77,8 @@
 }
 
 .expert-service-text h3 {
-  font-size: 48px;
   font-weight: 700;
-  line-height: 67.2px;
   letter-spacing: -0.03em;
-  /* mobile */
   font-size: 40px;
   line-height: 60px;
 }
@@ -131,59 +98,45 @@
 
 /* Steps */
 .section-1-steps {
-  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  /* Mobile */
   align-items: center;
   width: 100%;
 }
 
 .step {
-  height: calc(72px + 65px);
   display: flex;
   gap: 24px;
-  /* mobile */
   height: 100%;
   width: 80%;
 }
 
 .step-number {
-  padding: 12px 0;
   width: 72px;
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   gap: 16px;
-  height: 150px;
-  /* mobile */
   padding: 12px 0 0 0;
-  /* MOBILIAKAS */
   height: auto;
 }
 
 .step-number .number {
-  width: 100%;
-  height: 72px;
   background-color: var(--secondary);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  /* mobile */
   width: 72px;
   height: 72px;
   padding: 20px 0;
 }
 
 .number h5 {
-  font-size: 32px;
   color: #fff;
-  /* Mobile */
   font-size: 28px;
 }
 
@@ -199,10 +152,8 @@
 }
 
 .dotted-line {
-  border: 1.5px dashed #ff6433;
+  border: 1.5px dashed var(--orange);
   width: 0;
-  height: 51px;
-  /* mobile */
   height: 100%;
 }
 
@@ -216,68 +167,51 @@
 }
 
 .step-text h4 {
-  font-size: 32px;
   letter-spacing: -0.03em;
-  /* mobile */
   font-size: 28px;
 }
 
 .step-text p {
-  width: 336px;
   font-weight: 600;
   font-size: 18px;
   line-height: 175%;
   opacity: 0.6;
-  /* mobile */
   width: 100%;
 }
 
 /* Section 2 ------------------------------------------------------------------------------- */
 #section-2 {
-  height: 629px;
-  /* mobile */
   height: initial;
 }
 
 .section-2-container {
-  /* height: 100%; */
   width: 100%;
   display: flex;
-  /* mobile */
   flex-direction: column;
 }
 
 .section-2-card {
   position: relative;
-  width: calc(100% / 3);
   height: 100%;
-  padding: 142px 102px;
   color: #fff;
   display: flex;
   flex-direction: column;
   gap: 32px;
   overflow: hidden;
-  /* mobile */
   width: 100%;
   padding: 50px;
 }
 
 .section-2-card h4 {
-  font-size: 40px;
-  line-height: 54px;
   letter-spacing: -0.03em;
   font-weight: 700;
-  /* mobile */
   font-size: 36px;
   line-height: 48px;
 }
 
 .section-2-card p {
-  font-size: 24px;
-  line-height: 36px;
   letter-spacing: -0.03em;
   font-weight: 600;
-  /* mobile */
   font-size: 20px;
   line-height: 32px;
 }
@@ -326,23 +260,15 @@
 
 /* Section 3 ------------------------------------------------------------------------------- */
 #section-3 {
-  height: 1074px;
   background-color: #f8f8f8;
-  /* mobile */
   height: initial;
 }
 
 .section-3-container {
-  width: calc(200% / 3);
-  min-width: 1200px;
   margin: 0 auto;
-  height: 100%;
   display: flex;
-  padding-top: 128px;
   flex-direction: column;
-  gap: 64px;
   align-items: center;
-  /* mobile */
   height: initial;
   min-width: initial;
   width: 100%;
@@ -352,13 +278,9 @@
 }
 
 .section-3-container h2 {
-  font-size: 58px;
   font-weight: 800;
-  line-height: 76px;
   letter-spacing: -0.03em;
   text-align: center;
-  width: 861px;
-  /* mobile */
   width: 80%;
   font-size: 40px;
   line-height: 60px;
@@ -367,25 +289,20 @@
 .section-3-cards {
   width: 100%;
   display: flex;
-  height: 424px;
-  /* mobile */
   flex-direction: column;
   height: initial;
   align-items: center;
 }
 
 .section-3-card {
-  width: calc(100% / 3);
   height: 100%;
   border: 1px solid #f2f2f2;
   background-color: #fff;
-  padding: 88px 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
   text-align: center;
-  /* mobile */
   width: 95%;
   padding: 32px;
 }
@@ -398,10 +315,8 @@
 
 .section-3-card h5 {
   font-weight: 700;
-  font-size: 32px;
   line-height: 48px;
   letter-spacing: -0.03em;
-  /* mobile  */
   font-size: 28px;
 }
 
@@ -418,7 +333,6 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  /* mobile */
   flex-direction: column;
   align-items: center;
   gap: 16px;
@@ -429,8 +343,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  /* mobile */
   align-items: center;
 }
 
@@ -440,34 +352,25 @@
   font-weight: 800;
   color: var(--secondary);
   margin-bottom: 1px;
-  /* mobile */
 }
 
 .section-3-stats p {
   font-weight: 600;
   letter-spacing: -0.03em;
   font-size: 24px;
-  /* mobile */
 }
 
 /* Section 4 ------------------------------------------------------------------------------- */
 #section-4 {
-  height: 1328px;
-  /* mobile */
   height: initial;
 }
 
 .section-4-container {
-  width: calc(200% / 3);
-  min-width: 1200px;
   margin: 0 auto;
   height: 100%;
   display: flex;
-  padding: 140px 0;
   flex-direction: column;
-  gap: 66px;
   align-items: center;
-  /* mobile */
   width: 100%;
   min-width: initial;
   padding: 50px 0;
@@ -476,22 +379,14 @@
 
 .section-4-container h2 {
   font-weight: 800;
-  font-size: 64px;
-  line-height: 84px;
   text-align: center;
   letter-spacing: -0.03em;
-  /* mobile */
   font-size: 48px;
   line-height: 70px;
 }
 
 .team-members {
-  height: 912px;
-  width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 48px;
-  /* mobile  */
   grid-template-columns: 1fr;
   height: initial;
   gap: 32px;
@@ -503,7 +398,6 @@
 .member {
   display: flex;
   align-items: flex-end;
-  /* mobile */
   height: calc(912px / 2);
 }
 
@@ -574,17 +468,13 @@
 
 /* Section 5 --------------------------------------------------------------------- */
 #section-5 {
-  height: calc(502px + 210px);
-  /* mobile */
   height: initial;
 }
 
 /* Section 5 top */
 .section-5-top {
-  height: 502px;
   position: relative;
   overflow: hidden;
-  /* mobile */
   height: initial;
 }
 
@@ -597,7 +487,6 @@
   background-size: cover;
   background-position: center center;
   height: 100%;
-  /* mobile */
   display: none;
 }
 
@@ -611,24 +500,18 @@
   background-position: center center;
   height: 100%;
   right: 0;
-  /* mobile */
   display: none;
 }
 
 .section-5-top-container {
-  width: calc(200% / 3);
   margin: 0 auto;
   height: 100%;
-  /* mobile */
   width: 100%;
 }
 
 .section-5-text {
-  background-color: #ff6433;
+  background-color: var(--orange);
   height: 100%;
-  padding: 128px 80px 0 80px;
-  width: 729px;
-  /* mobile */
   width: 100%;
   padding: 50px 25px;
   display: flex;
@@ -644,10 +527,6 @@
   color: #fff;
   letter-spacing: -0.03em;
   line-height: 67.2px;
-  font-size: 48px;
-  width: 569px;
-  margin-bottom: 64px;
-  /* mobile */
   width: 80%;
   text-align: center;
   font-size: 40px;
@@ -657,6 +536,11 @@
 .section-5-text .button {
   background: #1e1b1b;
   color: #fff;
+}
+
+.section-5-text .button:hover {
+  background-color: #fff;
+  color: var(--text-primary);
 }
 
 /* Larget desktops and monitors --------------------------------------------------------------------------------------------- */

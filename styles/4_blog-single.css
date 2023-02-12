@@ -1,20 +1,15 @@
 /* Section 1 ------------------------------------------------------------------------------- */
 #section-1 {
-  height: 2832px;
-  /* mobile */
   height: initial;
 }
 
 .section-1-container {
   margin: 0 auto;
-  width: calc(200% / 3);
-  padding: 80px 0 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 16px;
-  /* mobile */
   width: 80%;
   padding: 32px 0 48px 0;
 }
@@ -23,27 +18,19 @@
 #section-1 h3,
 #section-1 h5,
 #section-1 p {
-  width: 896px;
-  /* mobile */
   width: 100%;
 }
 
 #section-1 h1 {
   font-weight: 700;
-  font-size: 48px;
-  line-height: 140%;
   letter-spacing: -0.03em;
-  /* mobile */
   font-size: 40px;
   line-height: 120%;
 }
 
 #section-1 h3 {
   font-weight: 700;
-  font-size: 40px;
-  line-height: 140%;
   letter-spacing: -0.03em;
-  /* mobile */
   font-size: 36px;
   line-height: 120%;
 }
@@ -73,30 +60,22 @@
 }
 
 #section-1 img {
-  margin: 48px 0;
-  /* mobile */
   margin: 32px;
 }
 
 #section-1 img.road {
-  width: 896px;
-  /* mobile */
   width: 125%;
 }
 
 /* Section 5 --------------------------------------------------------------------- */
 #section-5 {
-  height: calc(502px + 210px);
-  /* mobile */
   height: initial;
 }
 
 /* Section 5 top */
 .section-5-top {
-  height: 502px;
   position: relative;
   overflow: hidden;
-  /* mobile */
   height: initial;
 }
 
@@ -109,7 +88,6 @@
   background-size: cover;
   background-position: center center;
   height: 100%;
-  /* mobile */
   display: none;
 }
 
@@ -123,24 +101,18 @@
   background-position: center center;
   height: 100%;
   right: 0;
-  /* mobile */
   display: none;
 }
 
 .section-5-top-container {
-  width: calc(200% / 3);
   margin: 0 auto;
   height: 100%;
-  /* mobile */
   width: 100%;
 }
 
 .section-5-text {
-  background-color: #ff6433;
+  background-color: var(--orange);
   height: 100%;
-  padding: 128px 80px 0 80px;
-  width: 729px;
-  /* mobile */
   width: 100%;
   padding: 50px 25px;
   display: flex;
@@ -151,15 +123,10 @@
 }
 
 /* Section 5 top text */
-
 .section-5-text h3 {
   color: #fff;
   letter-spacing: -0.03em;
   line-height: 67.2px;
-  font-size: 48px;
-  width: 569px;
-  margin-bottom: 64px;
-  /* mobile */
   width: 80%;
   text-align: center;
   font-size: 40px;
@@ -169,6 +136,11 @@
 .section-5-text .button {
   background: #1e1b1b;
   color: #fff;
+}
+
+.section-5-text .button:hover {
+  background-color: #fff;
+  color: var(--text-primary);
 }
 
 /* Larget desktops and monitors --------------------------------------------------------------------------------------------- */

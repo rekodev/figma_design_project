@@ -26,7 +26,8 @@ window.addEventListener('click', (e) => {
   if (
     !e.target.matches('.button') &&
     !e.target.matches('.fa-solid') &&
-    nav.style.display != 'none'
+    nav.style.display != 'none' &&
+    !mediaQueryDesktop.matches
   ) {
     nav.style.display = 'none';
   }

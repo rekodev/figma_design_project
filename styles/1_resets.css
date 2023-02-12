@@ -21,3 +21,8 @@ body {
   background-color: #ff6433;
   text-decoration: none;
 }
+
+.button:hover {
+  background-color: #dddddd;
+  color: var(--text-primary);
+}
