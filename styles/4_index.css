@@ -779,6 +779,11 @@ h1 {
   height: 62px;
 }
 
+.arrow-left:hover,
+.arrow-right:hover {
+  cursor: pointer;
+}
+
 /* Section 8 */
 #section-8 {
   background-color: var(--steelgrey);
