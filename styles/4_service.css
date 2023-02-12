@@ -71,6 +71,12 @@
   width: calc(200% / 3);
 }
 
+.service-card:hover {
+  background-color: var(--orange);
+  color: #fff;
+  transition: 0.5s;
+}
+
 .service-card img {
   width: 44px;
 }
@@ -118,7 +124,7 @@
   width: 100%;
 }
 
-/* Mobiliakas */
+/* Mobile*/
 article h3,
 article h4,
 article p {
@@ -251,7 +257,7 @@ article p.border-left {
   color: var(--text-primary);
 }
 
-/* Larget desktops and monitors --------------------------------------------------------------------------------------------- */
+/* Larger desktops and monitors --------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 1280px) {
   /* Section 1 ------------------------------------------------------------------------------- */
   #section-1 {
@@ -300,16 +306,12 @@ article p.border-left {
 
   /* Text Cards */
   .section-1-text-card {
-    /* Mobile */
-    /* height: 100%; */
     width: initial;
     margin: initial;
   }
 
   .card-text {
     width: 322px;
-    /* Mobile  */
-    /* width: 100%; */
   }
 
   /* Article  */
@@ -317,7 +319,7 @@ article p.border-left {
     width: calc(72.667%);
   }
 
-  /* Mobiliakas */
+  /* Mobile */
   article h3,
   article h4,
   article p {
@@ -379,6 +381,7 @@ article p.border-left {
   }
 }
 
+/* Laptops, larger tablets -------------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 769px) and (max-width: 1279px) {
   .other-services {
     flex-direction: row;

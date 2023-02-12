@@ -478,6 +478,7 @@ h1 {
 .section-4-card:hover {
   background-color: var(--orange);
   color: #fff;
+  transition: 0.5s;
 }
 
 /* Section 5 --------------------------------------------------------------------- */
@@ -844,6 +845,17 @@ h1 {
   align-items: center;
   min-width: 50px;
   max-width: 52px;
+  cursor: pointer;
+}
+
+.minimize:hover {
+  background-color: #dddddd;
+}
+
+.minimize:hover .minus,
+.minimize:hover .plus {
+  background-color: var(--text-primary);
+  transition: 0.5s;
 }
 
 .minimize .minus {
@@ -860,7 +872,7 @@ h1 {
   background-color: #fff;
 }
 
-/* Larget desktops and monitors --------------------------------------------------------------------------------------------- */
+/* Larger desktops and monitors --------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 1280px) {
   #section-1,
   #section-2 {
@@ -1288,16 +1300,13 @@ h1 {
   }
 }
 
+/* Laptops, larger tablets -------------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 769px) and (max-width: 1279px) {
   .section-1-container {
     flex-direction: row;
     gap: 0px;
     width: 80%;
   }
-
-  /* .section-1-container img {
-    max-width: 430px;
-  } */
 
   .section-1-text {
     align-items: flex-start;

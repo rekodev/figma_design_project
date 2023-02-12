@@ -390,7 +390,7 @@
   grid-template-columns: 1fr;
   height: initial;
   gap: 32px;
-  width: 90%;
+  width: 80%;
   align-items: center;
   max-width: 420px;
 }
@@ -543,7 +543,7 @@
   color: var(--text-primary);
 }
 
-/* Larget desktops and monitors --------------------------------------------------------------------------------------------- */
+/* Larger desktops and monitors --------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 1280px) {
   #section-1 {
     height: 1659px;
@@ -588,6 +588,7 @@
     height: 773px;
     flex-direction: row;
     align-items: flex-start;
+    justify-content: space-between;
   }
 
   .expert-service img {
@@ -616,40 +617,28 @@
     height: calc(72px + 65px);
     display: flex;
     gap: 24px;
-    /* mobile */
-    /* height: 100%; */
     width: initial;
   }
 
-  /* .step-number {
-    height: 100%;
-  } */
-
   .step-number .number {
-    width: 100%;
-    height: 72px;
     background-color: var(--secondary);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    /* mobile */
     width: 72px;
     height: 72px;
     padding: 20px 0;
   }
 
   .dotted-line {
-    border: 1.5px dashed #ff6433;
+    border: 1.5px dashed var(--orange);
     width: 0;
-    height: 51px;
-    /* mobile */
     height: 100%;
   }
 
   /* Step text */
-
   .step-text h4 {
     font-size: 32px;
   }
@@ -659,13 +648,7 @@
   }
 
   /* Section 2 ------------------------------------------------------------------------------- */
-  /* #section-2 {
-    height: 629px;
-  } */
-
   .section-2-container {
-    /* height: 100%; */
-    /* mobile */
     flex-direction: row;
   }
 
@@ -685,10 +668,6 @@
   }
 
   /* Section 3 ------------------------------------------------------------------------------- */
-  /* #section-3 {
-    height: 1074px;
-  } */
-
   .section-3-container {
     width: calc(200% / 3);
     min-width: 1200px;
@@ -736,14 +715,12 @@
     font-weight: 800;
     color: var(--secondary);
     margin-bottom: 1px;
-    /* mobile */
   }
 
   .section-3-stats p {
     font-weight: 600;
     letter-spacing: -0.03em;
     font-size: 24px;
-    /* mobile */
   }
 
   /* Section 4 ------------------------------------------------------------------------------- */
@@ -770,10 +747,6 @@
     gap: 48px;
     max-width: initial;
   }
-
-  /* .member {
-    height: initial;
-  } */
 
   /* Section 5 --------------------------------------------------------------------- */
   #section-5 {
@@ -807,7 +780,6 @@
   }
 
   /* Section 5 top text */
-
   .section-5-text h3 {
     font-size: 48px;
     width: 569px;

@@ -2,6 +2,8 @@ const menuButton = document.getElementById('menu');
 const nav = document.getElementById('header-nav');
 const faSolid = document.querySelectorAll('.fa-solid');
 const mediaQueryDesktop = window.matchMedia('(min-width: 1280px)');
+const logo = document.querySelector('.logo');
+const logoFooter = document.getElementById('footer-logo');
 
 function toggleNav() {
   if (nav.style.display === 'none' || nav.style.display === '') {
@@ -32,3 +34,11 @@ window.addEventListener('click', (e) => {
     nav.style.display = 'none';
   }
 });
+
+// If you click on logo, it will redirect you to the home page
+function redirectHome() {
+  window.location.href = '../index.html';
+}
+
+logo.addEventListener('click', redirectHome);
+logoFooter.addEventListener('click', redirectHome);

@@ -25,4 +25,5 @@ body {
 .button:hover {
   background-color: #dddddd;
   color: var(--text-primary);
+  transition: 0.5s;
 }

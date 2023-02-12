@@ -15,6 +15,7 @@ header {
 header .logo {
   height: 27.43px;
   width: 121.41px;
+  cursor: pointer;
 }
 
 header button.button {
@@ -73,6 +74,7 @@ header nav ul li:last-child {
 
 header nav ul li:hover {
   background-color: var(--steelgrey);
+  transition: 0.3s;
 }
 
 header nav ul li a {
@@ -97,6 +99,12 @@ header nav ul li a {
   gap: 14px;
   border-left: 1px solid #939191;
   padding-left: 10px;
+}
+
+.road-assistance img:hover {
+  opacity: 0.85;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .road-assistance-text h6 {
@@ -164,6 +172,7 @@ header nav ul li a {
 
   header nav ul li a:hover {
     opacity: 0.5;
+    transition: 0.3s;
   }
 
   .road-assistance {

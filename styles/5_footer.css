@@ -56,6 +56,11 @@ footer {
   width: 24px;
 }
 
+.footer-top-container .footer-top-container-social .socials a:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
 .footer-top-container .footer-top-location {
   width: 50%;
   height: 100%;
@@ -96,6 +101,7 @@ footer {
   color: #fff;
   height: 27.43px;
   width: 121.41px;
+  cursor: pointer;
 }
 
 .footer-bottom-container .footer-navigation {
@@ -136,6 +142,7 @@ footer {
 
 .footer-bottom-container a:hover {
   opacity: 0.5;
+  transition: 0.3s;
 }
 
 /* Larget desktops and monitors --------------------------------------------------------------------------------------------- */
