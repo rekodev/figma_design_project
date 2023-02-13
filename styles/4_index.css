@@ -1069,8 +1069,8 @@ h1 {
 
   .step-number .number {
     width: 64px;
-    height: 72px;
-    padding: initial;
+    height: 64px;
+    padding: 10px;
   }
 
   .number h5 {
