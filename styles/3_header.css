@@ -1,5 +1,10 @@
 header {
   height: 90px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #fff;
 }
 
 .header-container {
